@@ -1,0 +1,118 @@
+ #add-form-container {
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ #add-form-container h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 30px;
+    
+ }
+
+#add-form-container form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 80%;
+ width: 600px;
+}
+
+.name-img-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 25px;
+    gap: 25px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#radio-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+
+#radio-container span {
+    display: flex;
+    align-items: center;
+}
+
+input[type='radio'] {
+    width: 25px;
+    height: 25px;
+}
+
+
+.time-serves-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 15px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.time-serves-container input {
+    width: 108px;
+}
+
+#ingredients-container {
+    min-height: 100px;
+    display: flex;
+    gap:50px;
+    flex-direction: row;
+    width: 375px;
+}
+
+#ingredients-inputs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#ingredients-inputs-container input {
+    height: 20px;
+}
+
+.ingredientsList {
+    margin-top: 20px;
+    margin-bottom: 0;
+    list-style-type: disc;
+}
+
+.addButton{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.textArea {
+    width: 365px;
+    min-height: 100px;
+    margin-bottom: 15px;
+}
+
+.submitButton {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(83, 155, 181);
+    border: none;
+    border-radius: 2px;
+}

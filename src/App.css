@@ -1,0 +1,144 @@
+/* --------- This is CSS Reset Code --------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	
+	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* --------- Begin your CSS Below here --------- */
+*
+
+	
+
+.nav {
+    width: 200px;
+	padding-right: 50px;
+	background-color: orange;
+	display: flex;
+	justify-content: space-between;
+  }
+
+  header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 50px;
+    background-color: orange;
+}
+header>h2 {
+width: 250px;
+color: white;
+font-size: 25px;
+margin-left: 50px;
+text-align: center;
+margin-top: .2cm;
+font-family: Sans-serif;
+
+}
+footer {
+ width: 100%;
+ height: 150px;
+ background-color: gray;
+ display: flex;
+ justify-content: space-between;
+}
+.nav1 {
+	background-color: orange;
+	box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 0.2);
+	border: none;
+	margin-top: .2cm;
+	font-size: 20px;
+	color:white
+}
+.nav2 {
+	background-color: orange;
+	box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 0.2);
+	border: none;
+	margin-top: .2cm;
+	font-size: 20px;
+	color:white
+}
+
+.nav > a {
+	height: 35px;
+}
+
+.nav > a > button {
+	cursor: pointer;
+	border-radius: 25px;
+}
+
+.nav > a :hover {
+ background-color: blanchedalmond;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: rgb(83, 155, 181);
+}
+
+.blue-btn {
+  width: 120px;
+  height: 45px;
+  justify-content: space-between;
+  margin-top: 1cm;
+  background-color: rgb(83, 155, 181);
+  color: white;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.socialsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 75px;
+}
+
+.socialsDiv h5 {
+	color: white;
+	font-size: 22px;
+}
+
+.socialIconsDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10px;
+}
+
+.social svg,a {
+	margin-left: 4px;
+	margin-top: 8px;
+}
